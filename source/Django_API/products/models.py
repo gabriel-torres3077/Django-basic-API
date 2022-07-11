@@ -14,5 +14,5 @@ class Product(models.Model):
     fabricante = models.CharField(max_length=100)
     imagem = models.ImageField()
 
-    
+
 
