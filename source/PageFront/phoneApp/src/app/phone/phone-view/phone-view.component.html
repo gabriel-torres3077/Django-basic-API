@@ -1,0 +1,17 @@
+<div class="row row-cols-1 row-cols-md-3 g-5">
+    <div class="col" *ngFor="let phone of phones">
+        <div class="card h=100" style="height: 30rem; width: 25rem;">
+            <img style="height: 300px; width: auto;" src="{{ phone.imagem }}" class="card-img-top" alt="imagem do {{phone.desc}}">
+            <div class="card-body">
+                <h5 class="card-title">{{ phone.desc }}</h5>
+                <p class="card-text">marca: {{ phone.marca }}</p>
+                <p class="card-text">estoque: {{phone.estoque}}</p>
+                <div class="card-footer">
+                    
+                    <p class="text-muted text-end" style="margin-left: 6rem;">R$ {{ phone.valor_venda }}</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>

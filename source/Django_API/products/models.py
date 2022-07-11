@@ -12,4 +12,6 @@ class Product(models.Model):
     marca = models.CharField(max_length=100)
     modelo = models.CharField(max_length=200)
     fabricante = models.CharField(max_length=100)
+    imagem = models.ImageField()
+
 

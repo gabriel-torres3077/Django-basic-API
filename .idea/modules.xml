@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Django-CRUD.iml" filepath="$PROJECT_DIR$/.idea/Django-CRUD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../PETSHOP/.idea/PETSHOP.iml" filepath="$PROJECT_DIR$/../../PETSHOP/.idea/PETSHOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Portifolio/.idea/Portifolio.iml" filepath="$PROJECT_DIR$/../../Portifolio/.idea/Portifolio.iml" />
     </modules>
   </component>
 </project>
