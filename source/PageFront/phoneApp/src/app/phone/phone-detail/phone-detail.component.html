@@ -1,1 +1,28 @@
-<p>phone-detail works!</p>
+<div *ngIf="phone !== undefined">
+
+
+    <div class="row">
+        <div class="col-12">
+            <h1>{{ phone.desc }}</h1>
+        </div>    
+    </div>
+    <div class="row">
+        <div class="col-5">
+            <img src="{{ phone.imagem }}">
+        </div>
+        <div class="col-7">
+            <ul>
+                <li>SKU: {{phone.sku}}</li>
+                <li>Preço: R${{phone.valor_venda}}</li>
+                <li>Estoque: {{phone.estoque}}</li>
+                <li>categoria(s): {{phone.categoria}}</li>
+                <li>Marca: {{phone.marca}}</li>
+                <li>modelo: {{phone.modelo}}</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    
+</div>
